@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    height: 90px;
+    background: #141414;
+    color: #ffff;
+    position: relative;
+    display: flex;
+}
+
+section {
+    height: 5px;
+}
+
+.nav-logo{
+    width: 147px;
+    height: 90px;
+}
+
+.logo {
+    margin: 0% auto;
+    padding: 0%;
+    width: 90px;
+}
+
+.nav-container-login-cadastro {
+    width: 200px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.nav-search {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.search {
+    height: 30px;
+    width: 100%;
+    border-style: none;
+    border-radius: calc(0.5rem);
+    font-size: calc(1rem * 0.94);
+    font-weight: 300;
+}
