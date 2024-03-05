@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo suave para o corpo da página */
+    padding-top: 50px; /* Ajuste conforme a altura do seu menu */
+}
+
+#menu-podcast {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que o menu fique acima de outros conteúdos */
+}
+
+#menu-podcast ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8A2BE2; /* Cor de fundo roxa */
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+#menu-podcast ul li {
+    float: left; /* Alinha os itens do menu à esquerda */
+}
+
+#menu-podcast ul li a {
+    display: block;
+    color: white; /* Cor do texto */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Transição suave para o hover */
+    font-weight: bold; /* Texto em negrito */
+}
+
+#menu-podcast ul li a:hover {
+    background-color: #DB7093; /* Cor de fundo rosa ao passar o mouse */
+}
+
+#menu-podcast ul li a:active {
+    background-color: #C71585; /* Cor de fundo ao clicar */
+}
+
+/* Adiciona uma borda inferior destacada para o item do menu atual */
+#menu-podcast ul li a.current {
+    border-bottom: 3px solid #C71585;
+}
