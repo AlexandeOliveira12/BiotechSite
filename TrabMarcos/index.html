@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dia das Mulheres</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html" class="current">Página Inicial</a></li>
+            <li><a href="pagina2.html">Página 2</a></li>
+            <li><a href="pagina3.html">Página 3</a></li>
+            <li><a href="pagina4.html">Página 4</a></li>
+            <li><a href="pagina5.html">Página 5</a></li>
+        </ul>
+    </nav>
+    <div class="banner">
+        <h1>Bem-vindo ao Evento do Dia das Mulheres</h1>
+        <p>Celebre conosco a força e a beleza das mulheres ao redor do mundo.</p>
+        <a href="#conteudo" class="scroll-down" onclick="scrollToContent()">
+            <img src="seta.png" alt="Descer" />
+        </a>        
+    </div>
+
+    <div id="conteudo">
+        <div class="container">
+            <h2>Mulheres na Tecnologia</h2>
+            <p>O mundo da tecnologia, historicamente dominado por homens, tem sido profundamente influenciado e enriquecido pelas contribuições de mulheres incríveis. Este site é dedicado a celebrar e destacar algumas dessas mulheres extraordinárias que romperam barreiras, inovaram e abriram caminho para futuras gerações no campo da tecnologia. De pioneiras em programação a líderes em inovação digital, suas histórias são fontes de inspiração e prova de que o talento e a paixão pela tecnologia não conhecem gênero.</p>
+        </div>
+    </div>
+    
+    <script>
+        function scrollToContent(event) {
+            event.preventDefault(); // Previne o comportamento padrão do link
+            const conteudo = document.getElementById('conteudo');
+            conteudo.scrollIntoView({ behavior: 'smooth' }); // Executa a rolagem suave
+        }
+        </script>
+        
+
+</body>
+
+</html>
