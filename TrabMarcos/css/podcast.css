@@ -78,7 +78,7 @@ body {
     margin-bottom: 2em; /* Aumenta o espaço acima da seta */
 }
 
-#conteudo {
+.conteudo {
     background-color: #f4f4f4;
     color: #333;
     padding: 40px 0; /* Adiciona um padding vertical para espaçamento */
@@ -93,12 +93,12 @@ body {
     border-radius: 8px; /* Borda arredondada para uma aparência suave */
 }
 
-#conteudo h2 {
+.conteudo h2 {
     text-align: center; /* Centraliza o título */
     margin-bottom: 20px; /* Espaçamento abaixo do título */
 }
 
-#conteudo p {
+.conteudo p {
     text-align: justify; /* Justifica o texto para melhor leitura */
     line-height: 1.6; /* Espaçamento de linha para melhor leitura */
 }
@@ -115,4 +115,5 @@ footer {
 
 footer p {
     margin: 5px 0; /* Espaçamento entre as linhas de texto */
+    text-align: center;
 }
