@@ -53,3 +53,52 @@ body {
 #menu-podcast ul li a.current {
     border-bottom: 3px solid #C71585;
 }
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    height: 14vh;
+    padding: 50px;
+    background-color: #DB7093;
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: relative; /* Para posicionar a seta absolutamente dentro do banner */
+}
+
+.banner h1 {
+    font-size: 48px; /* Tamanho chamativo para o h1 */
+    margin: 0.5em 0; /* Espaçamento acima e abaixo do h1 */
+}
+
+.banner p {
+    font-size: 24px; /* Tamanho adequado para legibilidade */
+    margin-bottom: 2em; /* Aumenta o espaço acima da seta */
+}
+
+#conteudo {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 40px 0; /* Adiciona um padding vertical para espaçamento */
+}
+
+.container {
+    max-width: 800px; /* Limita a largura máxima do texto */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 20px;
+    background-color: white; /* Fundo branco para destacar o texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidade */
+    border-radius: 8px; /* Borda arredondada para uma aparência suave */
+}
+
+#conteudo h2 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+#conteudo p {
+    text-align: justify; /* Justifica o texto para melhor leitura */
+    line-height: 1.6; /* Espaçamento de linha para melhor leitura */
+}
