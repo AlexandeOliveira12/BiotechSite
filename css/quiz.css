@@ -149,7 +149,7 @@ footer p {
 
 @media screen and (max-width: 1400px){
     
-    .Quiz-name{
+    .Quiz-name, .footer{
         display: none;
     }
 }
