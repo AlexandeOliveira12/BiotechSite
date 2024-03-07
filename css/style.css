@@ -72,7 +72,7 @@ body {
     /* Centraliza o conteúdo verticalmente */
     align-items: center;
     /* Centraliza o conteúdo horizontalmente */
-    height: 78vh;
+    height: 80vh;
     padding: 50px;
     background-color: #DB7093;
     color: white;
@@ -139,7 +139,7 @@ body {
 .conteudo {
     background-color: #f4f4f4;
     color: #333;
-    padding: 40px 0;
+    padding: 40px;
     /* Adiciona um padding vertical para espaçamento */
 }
 
@@ -233,11 +233,9 @@ footer {
     color: white; /* Cor do texto */
     font-size: 14px;
     bottom: 0;
-    width: 100%;
 }
 
 footer p {
     margin: 5px 0; /* Espaçamento entre as linhas de texto */
     text-align: center;
 }
-
