@@ -1,0 +1,242 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    /* Cor de fundo suave para o corpo da página */
+    padding-top: 50px;
+    /* Ajuste conforme a altura do seu menu */
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Garante que o menu fique acima de outros conteúdos */
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8A2BE2;
+    /* Cor de fundo roxa */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+}
+
+#menu ul li {
+    float: left;
+    /* Alinha os itens do menu à esquerda */
+}
+
+#menu ul li a {
+    display: block;
+    color: white;
+    /* Cor do texto */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    /* Transição suave para o hover */
+    font-weight: bold;
+    /* Texto em negrito */
+}
+
+#menu ul li a:hover {
+    background-color: #DB7093;
+    /* Cor de fundo rosa ao passar o mouse */
+}
+
+#menu ul li a:active {
+    background-color: #C71585;
+    /* Cor de fundo ao clicar */
+}
+
+/* Adiciona uma borda inferior destacada para o item do menu atual */
+#menu ul li a.current {
+    border-bottom: 3px solid #C71585;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centraliza o conteúdo verticalmente */
+    align-items: center;
+    /* Centraliza o conteúdo horizontalmente */
+    height: 78vh;
+    padding: 50px;
+    background-color: #DB7093;
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    /* Para posicionar a seta absolutamente dentro do banner */
+}
+
+.banner h1 {
+    font-size: 48px;
+    /* Tamanho chamativo para o h1 */
+    margin: 0.5em 0;
+    /* Espaçamento acima e abaixo do h1 */
+}
+
+.banner p {
+    font-size: 24px;
+    /* Tamanho adequado para legibilidade */
+    margin-bottom: 2em;
+    /* Aumenta o espaço acima da seta */
+}
+
+
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    /* Ajusta a distância da seta para o fim do banner */
+    left: 50%;
+    /* Centraliza a seta horizontalmente */
+    transform: translateX(-50%);
+    /* Ajuste fino para centralização exata */
+    cursor: pointer;
+    animation: bounce 2s infinite;
+}
+
+.scroll-down img {
+    width: 50px;
+    /* Ajuste conforme o tamanho desejado */
+    height: auto;
+}
+
+
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.conteudo {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 40px 0;
+    /* Adiciona um padding vertical para espaçamento */
+}
+
+.intro-container {
+    max-width: 800px;
+    /* Limita a largura máxima do texto */
+    margin: 0 auto;
+    /* Centraliza o container */
+    padding: 20px;
+    background-color: white;
+    /* Fundo branco para destacar o texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra suave para profundidade */
+    border-radius: 8px;
+    /* Borda arredondada para uma aparência suave */
+}
+
+
+.conteudo h2 {
+    text-align: center;
+    /* Centraliza o título */
+    margin-bottom: 20px;
+    /* Espaçamento abaixo do título */
+}
+
+.conteudo p {
+    text-align: justify;
+    /* Justifica o texto para melhor leitura */
+    line-height: 1.6;
+    /* Espaçamento de linha para melhor leitura */
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.205);
+    border-radius: 8px;
+}
+
+.conteudo-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.conteudo-section.black-bg {
+    background-color: #333;
+    color: white;
+}
+
+.conteudo-section.white-bg {
+    background-color: white;
+    color: #333;
+}
+
+.image-left .container {
+    flex-direction: row;
+}
+
+.image-right .container {
+    flex-direction: row-reverse;
+}
+
+.container img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+h3, p {
+    margin: 0;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+.image-right .text-content h3, .image-right .text-content p {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto */
+    font-size: 14px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0; /* Espaçamento entre as linhas de texto */
+    text-align: center;
+}

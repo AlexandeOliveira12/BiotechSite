@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Mulheres-Techs</title>
+    <link rel="stylesheet" type="text/css" href="css/quiz.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/woman.png">
+</head>
+<body>
+
+    <nav id="menu-quiz">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="podcast.html">Podcasts</a></li>
+            <li><a href="quiz.html" class="current">Quiz</a></li>
+        </ul>
+    </nav>
+
+    <h1>Quiz Mulheres na Tecnologia</h1>
+    <form id="quizForm">
+        <div class="question">
+            <p>1. Qual foi a primeira programadora da história, conhecida por seu trabalho com o "Motor Analítico" de Charles Babbage no século XIX?</p>
+            <label><input type="radio" name="q1" value="a"> A) Ada Lovelace</label><br>
+            <label><input type="radio" name="q1" value="b"> B) Grace Hopper</label><br>
+            <label><input type="radio" name="q1" value="c"> C) Katherine Johnson</label><br>
+        </div>
+        <div class="question">
+            <p>2. Quem é considerada a "mãe da internet", responsável pela criação do primeiro compilador de programação de computadores e uma das primeiras linguagens de programação, COBOL?</p>
+            <label><input type="radio" name="q2" value="a"> A) Ada Lovelace</label><br>
+            <label><input type="radio" name="q2" value="b"> B) Hedy Lamarr</label><br>
+            <label><input type="radio" name="q2" value="c"> C) Grace Hopper</label><br>
+        </div>
+        <div class="question">
+            <p>3. Qual é o maior planeta do sistema solar?</p>
+            <label><input type="radio" name="q3" value="a"> A) Radia Perlman</label><br>
+            <label><input type="radio" name="q3" value="b"> B) Margaret Hamilton</label><br>
+            <label><input type="radio" name="q3" value="c"> C) Marissa Mayer</label><br>
+        </div>
+        <button type="button" onclick="submitQuiz()">Enviar Respostas</button>
+    </form>
+    <div id="results"></div>
+
+
+    <footer>
+        <p>&copy; 2024 SAP. Todos os direitos reservados.</p>
+        <p>Desenvolvido por Samuel e Alexandre.</p>
+    </footer>
+
+    <script src="js/quiz.js"></script>
+</body>
+</html>
