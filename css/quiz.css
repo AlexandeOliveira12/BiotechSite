@@ -3,17 +3,17 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(135deg, #8a2be2, #ff69b4); /* Definindo o degradê */
-    height: 110vh; /* Tornando o degradê cobrir toda a altura da página */
+    height: 100vh; /* Tornando o degradê cobrir toda a altura da página */
     display: flex;
     justify-content: center;
     align-items: center;
     color: white; /* Definindo a cor do texto para branco para contraste */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 9px;
+    font-size: 16px;
     position: relative;
 }
 
-#menu-quiz {
+#menu {
     position: fixed;
     top: 0;
     width: 100%;
@@ -21,7 +21,7 @@ body {
     /* Garante que o menu fique acima de outros conteúdos */
 }
 
-#menu-quiz ul {
+#menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -32,12 +32,12 @@ body {
     /* Sombra suave */
 }
 
-#menu-quiz ul li {
+#menu ul li {
     float: left;
     /* Alinha os itens do menu à esquerda */
 }
 
-#menu-quiz ul li a {
+#menu ul li a {
     display: block;
     color: white;
     /* Cor do texto */
@@ -50,18 +50,18 @@ body {
     /* Texto em negrito */
 }
 
-#menu-quiz ul li a:hover {
+#menu ul li a:hover {
     background-color: #DB7093;
     /* Cor de fundo rosa ao passar o mouse */
 }
 
-#menu-quiz ul li a:active {
+#menu ul li a:active {
     background-color: #C71585;
     /* Cor de fundo ao clicar */
 }
 
 /* Adiciona uma borda inferior destacada para o item do menu atual */
-#menu-quiz ul li a.current {
+#menu ul li a.current {
     border-bottom: 3px solid #C71585;
 }
 
@@ -145,12 +145,5 @@ footer {
 footer p {
     margin: 5px 0; /* Espaçamento entre as linhas de texto */
     text-align: center;
-}
-
-@media screen and (max-width: 1400px){
-    
-    .Quiz-name, .footer{
-        display: none;
-    }
 }
 
