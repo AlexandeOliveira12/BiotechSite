@@ -117,3 +117,11 @@ footer p {
     margin: 5px 0; /* Espaçamento entre as linhas de texto */
     text-align: center;
 }
+
+@media screen and (max-width: 1400px){
+
+    .Intro1, .banner{
+        display: none;
+    }
+    
+}
