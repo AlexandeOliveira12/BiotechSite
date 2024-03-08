@@ -126,7 +126,7 @@ footer p {
     text-align: center;
 }
 
-@media screen and (max-width: 1110px){
+@media screen and (max-width: 1140px){
 
     .Intro1, .banner{
         display: none;
