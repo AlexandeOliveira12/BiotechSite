@@ -61,7 +61,7 @@ function submitQuiz() {
 
 let doctitle = document.title;
 window.addEventListener("blur", () =>{
-    document.title = "Volte aqui 😢";
+    document.title = "Volta por favor 😢";
 })
 
 window.addEventListener("focus", () =>{
