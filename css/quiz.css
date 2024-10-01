@@ -2,7 +2,7 @@ body {
     padding-top: 50px;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #8a2be2, #ff69b4); /* Definindo o degradê */
+    background: linear-gradient(135deg, #4d57da, #343ecf); /* Definindo o degradê */
     height: 100vh; /* Tornando o degradê cobrir toda a altura da página */
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #8A2BE2;
+    background-color: #333;
     /* Cor de fundo roxa */
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     /* Sombra suave */
@@ -51,18 +51,18 @@ body {
 }
 
 #menu ul li a:hover {
-    background-color: #DB7093;
+    background-color: #4d57da;
     /* Cor de fundo rosa ao passar o mouse */
 }
 
 #menu ul li a:active {
-    background-color: #C71585;
+    background-color: #333;
     /* Cor de fundo ao clicar */
 }
 
 /* Adiciona uma borda inferior destacada para o item do menu atual */
 #menu ul li a.current {
-    border-bottom: 3px solid #C71585;
+    border-bottom: 3px solid #343ecf;
 }
 
 h1 {
@@ -75,7 +75,7 @@ h1 {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #DB7093; /* Fundo rosa */
+    background-color: #333; /* Fundo rosa */
     border-radius: 10px;
     position: relative;
 }
@@ -86,7 +86,7 @@ h1 {
 
 .question p {
     font-weight: bold;
-    color: rgb(0, 0, 0); /* Cor das questões corretas */
+    color: rgb(255, 250, 250); /* Cor das questões corretas */
 }
 
 .question label {

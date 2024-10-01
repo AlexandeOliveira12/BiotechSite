@@ -52,18 +52,18 @@ body {
 }
 
 #menu ul li a:hover {
-    background-color: #4d57da;
+    background-color: #5b64df;
     /* Cor de fundo rosa ao passar o mouse */
 }
 
 #menu ul li a:active {
-    background-color: #24101c;
+    background-color: #333;
     /* Cor de fundo ao clicar */
 }
 
 /* Adiciona uma borda inferior destacada para o item do menu atual */
 #menu ul li a.current {
-    border-bottom: 3px solid #343ecf;
+    border-bottom: 3px solid #2731be;
 }
 
 .banner {
