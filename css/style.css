@@ -52,30 +52,18 @@ body {
 }
 
 #menu ul li a:hover {
-<<<<<<< HEAD
     background-color: #5b64df;
-=======
-    background-color: #4d57da;
->>>>>>> 8d9a6f3f1b3cc69380935f8eb612f4b567ddfbdc
     /* Cor de fundo rosa ao passar o mouse */
 }
 
 #menu ul li a:active {
-<<<<<<< HEAD
     background-color: #333;
-=======
-    background-color: #24101c;
->>>>>>> 8d9a6f3f1b3cc69380935f8eb612f4b567ddfbdc
     /* Cor de fundo ao clicar */
 }
 
 /* Adiciona uma borda inferior destacada para o item do menu atual */
 #menu ul li a.current {
-<<<<<<< HEAD
     border-bottom: 3px solid #2731be;
-=======
-    border-bottom: 3px solid #343ecf;
->>>>>>> 8d9a6f3f1b3cc69380935f8eb612f4b567ddfbdc
 }
 
 .banner {
