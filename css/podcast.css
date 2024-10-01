@@ -24,7 +24,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #8A2BE2;
+    background-color: #333;
     /* Cor de fundo roxa */
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     /* Sombra suave */
@@ -49,18 +49,18 @@ body {
 }
 
 #menu ul li a:hover {
-    background-color: #DB7093;
+    background-color: #4d57da;
     /* Cor de fundo rosa ao passar o mouse */
 }
 
 #menu ul li a:active {
-    background-color: #C71585;
+    background-color: #333;
     /* Cor de fundo ao clicar */
 }
 
 /* Adiciona uma borda inferior destacada para o item do menu atual */
 #menu ul li a.current {
-    border-bottom: 3px solid #C71585;
+    border-bottom: 3px solid #343ecf;
 }
 
 .banner {
@@ -70,7 +70,7 @@ body {
     align-items: center; /* Centraliza o conteúdo horizontalmente */
     height: 14vh;
     padding: 50px;
-    background-color: #DB7093;
+    background-color: #1e2581;
     color: white;
     text-align: center;
     margin: 0;
